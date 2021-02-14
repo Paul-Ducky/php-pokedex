@@ -4,6 +4,7 @@
 
 body {
     /*display: flex;*/
+
     width: 100%;
     background-image: radial-gradient(circle, #88b9d7, #7badcc, #6fa1c1, #6296b6, #568aab, #53789a, #4f6788, #4a5775, #433f55, #342a36, #1f181c, #000000);
 }
@@ -12,8 +13,6 @@ header{
    /* background: #1d3557;*/
     margin-bottom: 20px;
     text-align: center;
-
-
 
 }
 header>h1{
@@ -54,8 +53,7 @@ p{
 
     position: relative;
     border-radius:20px;
-    border:  solid 10px;
-    border-color: #2d2d2d;
+    border: 10px solid #2d2d2d;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -114,11 +112,9 @@ p{
 #type-screen{
     background: rgb(233,254,255);
     background: linear-gradient(195deg, rgba(233,254,255,1) 0%, rgba(26,170,199,1) 91%);
-    border: solid 1px #212121;
     border-radius:20px;
     box-shadow: 8px 8px #6c2326;
-    border:  solid 10px;
-    border-color: #2d2d2d;
+    border: 10px solid #2d2d2d;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -144,8 +140,8 @@ p{
    /* border: solid 1px #212121;*/
     border-radius:20px;
     width: 110px; height: 150px;
-    margin-left: 165px;
-    margin-top: -150px;
+    margin-left: 162px;
+    margin-top: -179px;
     font-family: 'Megrim', cursive;
     font-size: 28px;
     font-weight: bolder;
@@ -168,7 +164,7 @@ p{
 #btn-up, #btn-r, #btn-down, #btn-l{
 
     background: #f1faee;
-    position: relative;
+    position: absolute;
     width: 33px; height: 33px;
     border: solid 1px #212121;
 }
@@ -180,17 +176,19 @@ p{
 }
 #btn-r{
     margin-left: 72px;
+    margin-top: 36px;
     background: rgb(125,125,125);
     background: linear-gradient(90deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
 }
 #btn-down{
     margin-left: 36px;
+    margin-top: 72px;
     background: rgb(125,125,125);
     background: linear-gradient(180deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
 
 }
 #btn-l{
-    margin-top: -70px;
+    margin-top: 36px;
     background: rgb(125,125,125);
     background: linear-gradient(260deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
 }
@@ -209,8 +207,7 @@ p{
 
 #move-screen{
     border-radius: 10px;
-    border:  solid 10px;
-    border-color: #2d2d2d;
+    border: 10px solid #2d2d2d;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
